@@ -1,0 +1,15 @@
+﻿{
+  "name": "Superstar Saga Rando Tracker",
+  "game_name": "Mario & Luigi: Superstar Saga",
+  "platform": "gba",
+  "package_version": "1.0.0",
+  "package_uid": "tracker_mlss",
+  "layout_engine_version": "1.0.2",
+  "author": "altabiscuit, Snodeca",
+  "variants": {
+    "standard": {
+      "display_name": "Standard Randomizer"
+    }
+	}
+  }
+}

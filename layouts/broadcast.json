@@ -1,0 +1,48 @@
+﻿{
+  "tracker_broadcast": {
+    "background": "#212121",
+    "type": "array",
+    "h_alignment": "center",
+    "margin": "10",
+    "content": [
+      {
+        "type": "array",
+        "content": [
+          {
+            "type": "itemgrid",
+			"orientation": "horizontal",
+            "h_alignment": "center",
+			"item_size": 50,
+            "item_margin": "0,0,7,5",
+            "rows": [
+              [ "hammer1", "hammerbrosm", "hammerbrosl", "scroll1", "scroll2" ],
+              [ "handmario", "handluigi", "handbrosm", "handbrosl", "miscmushbadge" ],
+              [ "keyrose", "keybrooch", "keyfruit", "keymember", "keywinkle" ],
+			  [ "keydress", "keyfakestar", "", "", "" ],
+			  [ "keybeanfruit", "keyegg", "miscbeanstone", "miscbeanlet", "miscspangle" ],
+			  [ "miscwallet", "miscring", "miscspring", "miscforce", "miscgrip" ],
+			  [ "miscnecktie", "miscgbsp", "", "", "" ]
+            ]
+          }
+        ]
+      },
+	  {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_size": 50,
+            "item_margin": "0,0,7,5",
+            "rows": [
+              [ "boss1", "boss2", "boss3", "boss4", "boss5" ],
+              [ "boss6", "boss7", "boss8", "boss9", "boss10" ],
+              [ "boss11", "boss12", "boss13", "", "" ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

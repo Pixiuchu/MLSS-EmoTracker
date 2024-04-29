@@ -1,0 +1,547 @@
+﻿[
+  {
+    "name": "Hammer",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/hammer.png",
+        "codes": "hammer1"
+      },
+      {
+        "img": "images/hammer_super.png",
+        "codes": "hammer2"
+      },
+      {
+        "img": "images/hammer_ultra.png",
+        "codes": "hammer3"
+      }
+    ]
+  },
+  {
+    "name": "Hammer Bros. Mario",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/redgoblet.png",
+        "codes": "hammerbrosm"
+      },
+      {
+        "img": "images/redgoblet_adv.png",
+        "codes": "hammerbrosm_adv"
+      }
+    ]
+  },
+  {
+    "name": "Hammer Bros. Luigi",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/greengoblet.png",
+        "codes": "hammerbrosl"
+      },
+      {
+        "img": "images/greengoblet_adv.png",
+        "codes": "hammerbrosl_adv"
+	  }
+    ]
+  },
+    {
+    "name": "Spin Jump",
+    "type": "progressive",
+	"allow_disabled": "false",
+    "stages": [
+      {
+        "img": "images/spinjump.png",
+        "codes": "spinjump"
+      },
+      {
+        "img": "images/spinjump_adv.png",
+        "codes": "spinjump_adv"
+      }
+    ]
+  },
+  {
+    "name": "High Jump",
+    "type": "progressive",
+	"allow_disabled": "false",
+    "stages": [
+      {
+        "img": "images/highjump.png",
+        "codes": "highjump"
+      },
+      {
+        "img": "images/highjump_adv.png",
+        "codes": "highjump_adv"
+	  }
+    ]
+  },
+  {
+    "name": "Secret Scroll 1",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/misc_scroll1.png",
+        "codes": "scroll1"
+      },
+      {
+        "img": "images/misc_scroll1_adv.png",
+        "codes": "scroll1_adv"
+      }
+    ]
+  },
+  {
+    "name": "Secret Scroll 2",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/misc_scroll2.png",
+        "codes": "scroll2"
+      },
+      {
+        "img": "images/misc_scroll2_adv.png",
+        "codes": "scroll2_adv"
+      }
+    ]
+  },
+  
+  
+  {
+    "name": "Firebrand",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/hand_mario.png",
+    "codes": "handmario"
+  },
+  {
+    "name": "Thunderhand",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/hand_luigi.png",
+    "codes": "handluigi"
+  },
+  {
+    "name": "Hand Bros. Mario",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/redpearlbean.png",
+        "codes": "handbrosm"
+      },
+      {
+        "img": "images/redpearlbean_adv.png",
+        "codes": "handbrosm_adv"
+      }
+    ]
+  },
+  {
+    "name": "Hand Bros. Luigi",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/greenpearlbean.png",
+        "codes": "handbrosl"
+      },
+      {
+        "img": "images/greenpearlbean_adv.png",
+        "codes": "handbrosl_adv"
+      }
+    ]
+  }, 
+  {
+    "name": "Mush Badge",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/misc_mushbadge.png",
+    "codes": "miscmushbadge"
+  },
+  
+  
+  {
+    "name": "Peasley's Rose",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/key_rose.png",
+    "codes": "keyrose"
+  },
+  {
+    "name": "Beanbean Brooch",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/key_brooch.png",
+    "codes": "keybrooch"
+  },
+  {
+    "name": "Purple Chuckola Fruit",
+    "type": "consumable",
+    "img": "images/key_fruit.png",
+    "codes": "keyfruit",
+	"swap_actions": false,
+	"initial_quantity": 0,
+	"max_quantity": 3
+  },
+  {
+    "name": "Membership Card",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/key_membercard.png",
+    "codes": "keymember"
+  },
+  {
+    "name": "Winkle Card",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/key_winkle.png",
+    "codes": "keywinkle"
+  },
+  
+  
+  {
+    "name": "Peach's Extra Dress",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/key_dress.png",
+    "codes": "keydress"
+  },
+  {
+    "name": "Fake Beanstar",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/key_fakestar.png",
+    "codes": "keyfakestar"
+  },
+  
+  
+  {
+    "name": "Bean Fruits",
+    "type": "consumable",
+    "img": "images/key_beanfruit.png",
+    "codes": "keybeanfruit",
+    "swap_actions": false,
+	  "initial_quantity": 0,
+    "max_quantity": 7
+  },
+  {
+    "name": "Neon Eggs",
+    "type": "consumable",
+    "img": "images/key_egg.png",
+    "codes": "keyegg",
+    "swap_actions": false,
+	  "initial_quantity": 0,
+    "max_quantity": 7
+  },
+  {
+    "name": "Beanstones",
+    "type": "consumable",
+    "img": "images/misc_beanstone.png",
+    "codes": "miscbeanstone",
+    "swap_actions": false,
+	  "initial_quantity": 0,
+    "max_quantity": 10
+  },
+  {
+    "name": "Beanlets",
+    "type": "consumable",
+    "img": "images/misc_beanlet.png",
+    "codes": "miscbeanlet",
+    "swap_actions": false,
+	  "initial_quantity": 0,
+    "max_quantity": 5
+  },
+  {
+    "name": "Spangle",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/misc_spangle.png",
+    "codes": "miscspangle"
+  },
+
+
+  {
+    "name": "Greed Wallet",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/misc_wallet.png",
+    "codes": "miscwallet"
+  },
+  {
+    "name": "Bonus Ring",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/misc_ring.png",
+    "codes": "miscring"
+  },
+  {
+    "name": "Excite Spring",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/misc_spring.png",
+    "codes": "miscspring"
+  },
+  {
+    "name": "Great Force",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/misc_force.png",
+    "codes": "miscforce"
+  },
+  {
+    "name": "Power Grip",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/misc_grip.png",
+    "codes": "miscgrip"
+  },
+  
+  
+  {
+    "name": "Cobalt Necktie",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/misc_necktie.png",
+    "codes": "miscnecktie"
+  },
+  {
+    "name": "GB Horror SP",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/misc_gbsp.png",
+    "codes": "miscgbsp"
+  },
+
+
+  {
+    "name": "Tolstar",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_tolstar.png",
+    "codes": "boss1"
+  },
+        {
+    "name": "Hoohooros",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/hoohooros.png",
+    "codes": "bosshoohooros"
+  },
+  {
+    "name": "Dragohoho",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_dragohoho.png",
+    "codes": "boss2"
+  },
+  {
+    "name": "Queen Bean",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_queenbean.png",
+    "codes": "boss3"
+  },
+  {
+    "name": "Popple & Rookie 1",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_popple1.png",
+    "codes": "boss4"
+  },
+        {
+    "name": "Wiggler",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Wiggler.png",
+    "codes": "bosswiggler"
+  },
+  {
+    "name": "Chuckolator",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_chuckolator.png",
+    "codes": "boss5"
+  },
+  {
+    "name": "Cackletta",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_cackletta.png",
+    "codes": "boss6"
+  },
+  {
+    "name": "Popple & Rookie 2",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_popple2.png",
+    "codes": "boss7"
+  },
+  {
+    "name": "Mom Piranha",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_mompiranha.png",
+    "codes": "boss8"
+  },
+  {
+    "name": "Trunkle",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_trunkle.png",
+    "codes": "boss9"
+  },
+  {
+    "name": "Hermie III",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_hermie.png",
+    "codes": "boss10"
+  },
+  {
+    "name": "Popple 3",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_popple3.png",
+    "codes": "boss11"
+  },
+  {
+    "name": "Jojora",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_jojora.png",
+    "codes": "boss12"
+  },
+  {
+    "name": "Popple & Birdo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boss_popple4.png",
+    "codes": "boss13"
+  },
+    {
+    "name": "Iggy",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/1Iggy.png",
+    "codes": "bossiggy"
+  },
+      {
+    "name": "Morton",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/2Morton.png",
+    "codes": "bossmorton"
+  },
+        {
+    "name": "Lemmy",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/3Lemmy.png",
+    "codes": "bosslemmy"
+  },
+        {
+    "name": "Ludwig",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/4Ludwig.png",
+    "codes": "bossludwig"
+  },
+        {
+    "name": "Roy",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/5Roy.png",
+    "codes": "bossroy"
+  },
+        {
+    "name": "Wendy",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/6Wendy.png",
+    "codes": "bosswendy"
+  },
+        {
+    "name": "Larry",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/7Larry.png",
+    "codes": "bosslarry"
+  },
+        {
+    "name": "Fawful 2",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/8Fawful.png",
+    "codes": "bossfawful2"
+  },
+  {
+	"name": "Woohoo Blend",
+	"type": "toggle",
+	"loop": "true",
+	"img": "images/coffee_1_woohooblend.png",
+	"codes": "coffee1"
+  },
+  {
+	"name": "Hoohoo Blend",
+	"type": "toggle",
+	"loop": "true",
+	"img": "images/coffee_2_hoohooblend.png",
+	"codes": "coffee2"
+  },
+  {
+	"name": "Chuckle Blend",
+	"type": "toggle",
+	"loop": "true",
+	"img": "images/coffee_3_chuckleblend.png",
+	"codes": "coffee3"
+  },
+  {
+	"name": "Teehee Blend",
+	"type": "toggle",
+	"loop": "true",
+	"img": "images/coffee_4_teeheeblend.png",
+	"codes": "coffee4"
+  },
+  {
+	"name": "Hoolumbian",
+	"type": "toggle",
+	"loop": "true",
+	"img": "images/coffee_5_hoolumbian.png",
+	"codes": "coffee5"
+  },
+  {
+	"name": "Chuckoccino",
+	"type": "toggle",
+	"loop": "true",
+	"img": "images/coffee_6_chuckoccino.png",
+	"codes": "coffee6"
+  },
+  {
+	"name": "Teeheespresso",
+	"type": "toggle",
+	"loop": "true",
+	"img": "images/coffee_7_teeheespresso.png",
+	"codes": "coffee7"
+  },
+    {
+    "name": "No. of unique Coffee Items bought",
+    "type": "consumable",
+    "img": "images/coffeecount.png",
+    "codes": "coffeecount",
+    "swap_actions": false,
+	  "initial_quantity": 0,
+    "max_quantity": 7
+  },
+        {
+    "name": "Beanstar",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/RealBeanstar.png",
+    "codes": "realbeanstar"
+  },
+        {
+    "name": "Beanstar Pieces",
+    "type": "consumable",
+    "img": "images/BeanstarPieces.png",
+    "codes": "beanstarpieces",
+	    "swap_actions": false,
+	  "initial_quantity": 0,
+    "max_quantity": 4 
+  },
+]

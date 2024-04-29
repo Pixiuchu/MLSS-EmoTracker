@@ -1,0 +1,50 @@
+﻿{
+  "shared_item_grid": {
+      "type": "array",
+      "orientation": "vertical",
+      "content": [
+        {
+          "type": "array",
+          "content": [
+            {
+              "type": "itemgrid",
+			  "orientation": "horizontal",
+              "h_alignment": "center",
+			  "item_size": 50,
+              "item_margin": "0,0,7,5",
+              "rows": [
+			[ "spinjump",	 "hammerbrosm",		 "handmario",	"handbrosm", 	"scroll1"],
+              [ "highjump",	 "hammerbrosl",	 "handluigi",		"handbrosl", 	"scroll2" ],
+              [ "hammer1", "miscmushbadge", "keyrose",		 "keybrooch", 	"keyfruit"	 ],
+			  [ "keymember", 	 "keyegg","keybeanfruit", "keywinkle",  "miscspangle" ],
+			  [ "beanstarpieces", "realbeanstar", "keydress",		 "keyfakestar"],
+
+              [ "boss1", "boss2", "boss3", "boss4", "boss5" ],
+              [ "boss6", "boss7", "boss8", "boss9", "boss10" ],
+              [ "boss11", "boss12", "boss13" ,"",""],
+			  [ "miscwallet",	 "miscring", 	"miscspring", 	"miscforce", 	"miscgrip" ],
+			  [ "miscnecktie",	 "miscgbsp",	"coffeecount", "coffee1", "coffee2" ],
+			  ["coffee3", "coffee4", "coffee5", "coffee6", "coffee7"],
+			  			  			  ["miscbeanstone", "miscbeanlet"]
+
+            ]
+          }
+        ]
+      }
+      ]
+  },
+  "tracker_default": {
+    "type": "container",
+    "width": 300,
+    "background": "#212121",
+    "content": {
+      "type": "layout",
+      "dropshadow": true,
+      "margin": 10,
+      "key": "shared_item_grid"
+    }
+  }
+}
+
+
+
