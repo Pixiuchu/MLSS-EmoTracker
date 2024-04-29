@@ -5,7 +5,7 @@
   "package_version": "1.0.0",
   "package_uid": "tracker_mlss",
   "layout_engine_version": "1.0.2",
-  "author": "altabiscuit, Snodeca",
+  "author": "altabiscuit, Pixiuchu",
   "variants": {
     "standard": {
       "display_name": "Standard Randomizer"
